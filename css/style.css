@@ -1,0 +1,120 @@
+element {
+    margin: 0;
+    padding: 0;
+}
+
+.header__wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 61px;
+    margin-top: 10px;
+    text-align: unset;
+    align-items: center;
+    justify-content: left;
+}
+
+header ul {
+    display: flex;
+    /* padding: 15px 15px; */
+    list-style-type: none;
+    color: black;
+    gap: 32px;
+}
+
+header {
+    background-color: #FFF8DC;
+}
+
+.container_top {
+    width: 100%;
+    position: relative;
+}
+
+.slider-img {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    font-family: 'Hiragino kaku Gothic Pro', sans-serif;
+}
+
+
+.wrap_news {
+    background-color: #FFFFE0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.news {
+    background-color: beige;
+}
+
+.container_news {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 733px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+}
+
+.item_text {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.slider_img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    width: 1440px;
+    height: 1049px;
+    background-color: F0E68C;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    font-size: 15px;
+    padding: 5px 6px;
+    vertical-align: middle;
+}
+.contact .item_text{
+    text-align:center;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
